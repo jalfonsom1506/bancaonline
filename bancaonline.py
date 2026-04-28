@@ -7,7 +7,7 @@ while True:
             5. Salir """)
   opcion = int(input("Introduce una opción:"))
 
-if opcion == 1:
-  ingresar = float(input("Indica la cantidad a ingresar: "))
-  saldo += ingresar
-  print(f"Has ingresado tu dinero")
+  if opcion == 1:
+    ingresar = float(input("Indica la cantidad a ingresar: "))
+    saldo += ingresar
+    print(f"Has ingresado tu dinero")
